@@ -49,52 +49,18 @@ mkdir my-web-app
 cd my-web-app
 ```
 
-***Index.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docker Web App</title>
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Hello from Docker container</h1>
-        <h2>I am live</h2>
-    </div>
-</body>
-</html>
+##Create Index.html
+```bash
+nano index.html
+```
+use index.html file code
 
-***
-## Dockerfile
 
-# Use the official Nginx image
-FROM nginx:alpine
-
-# Copy the HTML file into the container
-COPY index.html /usr/share/nginx/html/index.html
-
-# Expose port 80
-EXPOSE 80
-##
+## Create Dockerfile
+```bash
+Nano Dockerfile
+```
+Use dockerfile code
 
 ###Build Docker image
 
