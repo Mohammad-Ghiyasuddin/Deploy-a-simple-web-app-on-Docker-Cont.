@@ -58,7 +58,7 @@ use index.html file code
 
 ## Create Dockerfile
 ```bash
-Nano Dockerfile
+nano Dockerfile
 ```
 Use dockerfile code
 
